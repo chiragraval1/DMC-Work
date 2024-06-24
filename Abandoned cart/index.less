@@ -136,11 +136,11 @@ a {
 * {
   margin: 0;
   padding: 0;
-  font-family: "Mukta", sans-serif;
+ 
 }
 
 .abandoned-cart{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Mukta", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1;
@@ -152,9 +152,8 @@ a {
   display: block;
   text-align: center;
   width: 100%;
-  padding: 35px 0px 0px;
   img {
-    width: 230px;
+    width: 220px;
     @media (max-width:767px) {  
       width: 180px;
   }
@@ -163,7 +162,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 5px 0px 30px 0px;
     @media (max-width:767px) {  
         display: block;
     }
@@ -173,7 +172,6 @@ a {
         a {
           color: black;
           font-size: 14px;
-          font-family: "Montserrat", sans-serif;
           font-weight: 500;
           line-height: 21px;
           letter-spacing: 0.31px;
@@ -480,23 +478,25 @@ a {
 // connect end
 // footer start 
 .footer{
-  
   .foot-top{
     background-color: #454545;
     text-align: center;
-    padding: 30px 30px;
+    padding: 25px 50px 10px 50px;
     letter-spacing: 0.23px;
     p{
       padding: 8px;
       a{
         text-decoration: none;
-        color: #fff;
+        color:  #dcdada;
       }
     }
     .icons {
-      padding: 10px;
+      padding: 10px 0 35px 0;
       i{
         border-radius: 50%;
+        height: 25px ;
+        width: 25px;
+        line-height: 25px;
         background-color: #8C9E62;
         color: #454545;
         padding: 5px;
@@ -504,15 +504,16 @@ a {
         margin: 3px;
       }
     }
+
     .view{
       font-size: 14px;
       padding: 20px 0;
       letter-spacing: 0.23px;
-      color: #fff;
+      color:  #BBBBBB;
       a{  
-        padding: 2px;
+        padding: 1px;
         margin: 0 5px;
-        border-bottom: 1px solid #fff;
+        border-bottom: 1px solid #BBBBBB !important;
       }
     }
   }
@@ -521,12 +522,15 @@ a {
     padding: 20px 40px 5px 40px;
     text-align: center;
     line-height: 20px;
+    color: #979292;
     a{
-      color: #000;
+      color:  #979292;
     }
+  }
+  hr{
+    color: #BBBBBB;
   }
   
 }
-
 // footer end 
 }
