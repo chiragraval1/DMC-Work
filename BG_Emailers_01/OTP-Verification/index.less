@@ -173,7 +173,7 @@ a {
       li {
         padding: 0px 10px;
         a {
-          color: black;
+          color: #454545;
           font-size: 14px;
           font-weight: 500;
           line-height: 21px;
@@ -191,6 +191,9 @@ a {
   text-align: center;
   letter-spacing: 0.30px;
   width: 45%;
+  @media (max-width:767px) {
+    width: 70%;
+  }
 
   .v-text{
     padding: 30px 0px 10px;
@@ -200,7 +203,7 @@ a {
     margin-bottom: 30px;
     span{
       color: #7F8E58;
-      font-weight: 600;
+      font-weight: 700;
     }
   }
   .box{
@@ -213,10 +216,10 @@ a {
     p{
       font-size: 16px;
       line-height: 24px;
-      padding: 25px 0;
+      padding: 20px 0;
     }
     h3{
-      padding: 25px 0;
+      padding: 15px 0;
       font-size: 30px;
       font-weight: 500;
       color: #E8835B;
@@ -225,6 +228,7 @@ a {
   p{
     padding: 20px;
     font-weight: 500;
+    line-height: 20px;
     span{
       text-decoration: underline #454545;
       text-underline-offset: 5px;
@@ -271,6 +275,12 @@ a {
       padding: 20px 0;
       letter-spacing: 0.23px;
       color:  #BBBBBB;
+      span{
+        @media (max-width:767px) {
+          display: inline-block;
+          padding-top: 10px;
+        }
+      }
       a{  
         padding: 1px;
         margin: 0 5px;

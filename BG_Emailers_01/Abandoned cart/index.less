@@ -170,7 +170,7 @@ a {
       li {
         padding: 0px 10px;
         a {
-          color: black;
+          color: #454545;
           font-size: 14px;
           font-weight: 500;
           line-height: 21px;
@@ -372,11 +372,22 @@ a {
         del{
           opacity: 0.9;
           font-size: 16px;
+          color: #908a8a;
         }
         .pro-price{
           font-size: 16px;
           color: #E8835B;
           padding: 8px 0;
+          span{
+            font-size: 12px;
+            opacity: 0.7;
+            color: #2C2C2C;
+          }
+        }
+        .reg-price{
+          padding: 8px 0;
+          font-size: 16px;
+          color: #2C2C2C;
           span{
             font-size: 12px;
             opacity: 0.7;
@@ -437,7 +448,7 @@ a {
   p{
     padding-bottom: 10px;
     font-size: 12px;
-    letter-spacing: 0.36px;
+    letter-spacing: 0.56px;
     color: #2C2C2C;
   }
   .connect-img{
@@ -510,6 +521,12 @@ a {
       padding: 20px 0;
       letter-spacing: 0.23px;
       color:  #BBBBBB;
+      span{
+        @media (max-width:767px) {
+          display: inline-block;
+          padding-top: 10px;
+        }
+      }
       a{  
         padding: 1px;
         margin: 0 5px;

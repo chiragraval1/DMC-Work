@@ -135,23 +135,22 @@ a {
 
 * {
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
 
-.back-in-stick{
+.sign-up{
   font-family: "Mukta", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1;
   box-sizing: border-box;
   margin: 0;
-  
-// header start
+  // header start
 .header {
   display: block;
   text-align: center;
   width: 100%;
+
   img {
     width: 220px;
     @media (max-width:767px) {  
@@ -170,7 +169,7 @@ a {
       li {
         padding: 0px 10px;
         a {
-          color: black;
+          color: #454545;
           font-size: 14px;
           font-weight: 500;
           line-height: 21px;
@@ -182,6 +181,7 @@ a {
   }
 }
 // header end
+
 // looking start 
 .looking{
   margin: auto;
@@ -204,111 +204,144 @@ a {
   }
   p{
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
     margin-bottom: 20px;
   }
-}
-// looking end 
-// cart-order start 
-.cart-order{
-  padding: 30px 30px;
-  .product-1{
-    display: flex;
-    justify-content: center;
-    border: 1px solid #d4d0d0;
-    padding: 35px 0px;
-    @media (max-width:767px) {
-      display: block;
-    }
-    .pro-img{
-      width: 15%;
-      position: relative;
-      @media (max-width:767px) {
-        width: 50%;
-        display: block;
-        margin: auto;
-      }
-      .off{
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 5px 25px 5px 5px;
-        border-bottom-right-radius: 25px;
-        background-color: #E8835B;
-        color: #fff;
-      }
-      img{
-        width: 100%;
-      }
-    }
-    .pro-details{
-      padding: 30px 20px;
-      width: 40%;
-      @media (max-width:767px){
-        width: 80%;
-        display: block;
-        margin: auto;
-        padding-left: 30px;
-      }
-      h3{
-        font-size: 16px;
-        padding: 0 0 7px 0px;
-        letter-spacing: 0.3px;
-        font-weight: 600;
-      }
-      .colour{
-        font-size: 12px;
-        display: inline-block;
-        padding: 12px 0px;
-      }
-      del{
-        opacity: 0.5;
-        font-weight: 500;
-      }
-      .price{
-        padding: 12px 0;
-        p{
-          display: inline;
-          font-size: 18px;
-          font-weight: 600;
-        }
-        span{
-          font-size: 12px;
-          opacity: 0.8;
-        }
-        .off-price{
-          color: #E8835B;
-        }
-      }
-      .delivery{
-        letter-spacing: 0.23px;
-        span{
-          opacity: 0.8;
-          font-size: 14px;
-          padding: 12px 0px;
-        }
-        p{
-          font-size: 14px;
-          font-weight: 600;
-          display: inline;
-        }
-      }
-    }
+  h4{
+    margin: 30px auto;
+    font-weight: 700;
+    font-size: 21px;
   }
+
   button{
     background-color: #8C9E62;
     color: #efecec;
-    width: 35%;
+    width: 22%;
     margin: 30px auto;
     text-align: center;
     padding: 20px;
     font-size: 16px;
     display: block;
     border: none;
-    letter-spacing: 0.35px;
+    letter-spacing: 1.35px;
+    @media (max-width:767px) {
+      width: 50%;
+    }
   }
 }
-// cart-order end 
+// looking end 
+
+// section-1 start 
+.section-1{
+  display: block;
+  text-align: center;
+  padding: 30px 30px;
+  letter-spacing: 0.23px;
+  line-height: 23px;
+  h3{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 0px 20px;
+    color: #454545;
+    letter-spacing: 1.2px;
+  }
+  p{
+    padding: 10px 0px;
+  }
+  .start-shop-btn{
+    background: #8C9E62;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.36px;
+    color: white;
+    padding: 8px 0;
+    width: 160px;
+    border: none;
+    margin: 30px auto 0;
+  }
+}
+// section end 
+
+// section-container start 
+.section-container{
+  text-align: center;
+  background-color: #FCFBFA;
+  padding: 30px 30px;
+  .bdr-1{
+    border-bottom: 1px solid #D6D6D6;
+    box-shadow: 0px 1px 0px #D6D6D6;
+    @media (max-width:767px) {
+      border: none;
+      box-shadow: none;
+    }
+  }
+  .section-2{
+    display: flex;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    @media (max-width:767px) {
+      display: block;
+    }
+    
+    .bdr{
+      border-right: 1px solid #D6D6D6;
+      padding-right: 20px !important;
+      box-shadow: 1px 0px 0px #D6D6D6;
+      @media (max-width:767px) {
+        border: none;
+        box-shadow: none;
+      }
+    }
+    .sec-one{
+      width: 46%;
+       padding: 40px 0px;
+       @media (max-width:767px) {
+        width: 100%;
+       }
+       .one-img{
+        width: 100%;
+        width: 226px;
+        height: 113px;
+        position: relative;
+        margin: auto;
+        img{
+          position: absolute;
+          z-index: 12;
+          top: 0;
+          left: 0;
+          width: 230px;
+          height: 120px;
+        }
+        .circle{
+          height: 113px;
+          border-radius: 50%;
+          background-color: #dde4cc;
+          width: 50%;
+          margin: -10px auto;
+          z-index: 10;
+          opacity: 0.5;
+        }  
+       }
+      h3{
+        font-size: 14px;
+        padding: 14px 0px;
+        font-weight: 700;
+        color: #4C4C4C;
+        margin-top: 10px;
+      }
+      button{
+        border: none;
+        padding: 1px 0;
+        border-bottom: 1px solid ;
+        font-weight: 400;
+        background: none;
+      }
+    }
+  
+  }
+}
+// section-container end 
 
 
 // connect start 
@@ -316,15 +349,16 @@ a {
   padding: 25px 50px 20px 50px;
   text-align: center;
   h3{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     padding: 10px;
     letter-spacing: 0.24px;
+
   }
   p{
     padding-bottom: 10px;
-    font-size: 12px;
-    letter-spacing: 0.36px;
+    font-size: 14px;
+    letter-spacing: 1.0px;
     color: #2C2C2C;
   }
   .connect-img{
@@ -336,10 +370,9 @@ a {
     }
     @media (max-width:767px) {
       display: block;
-
       img{
         width: 100%;
-        margin: 5px 0;
+        padding-top: 10px;
       }
     }
   
@@ -350,15 +383,16 @@ a {
     font-weight: 700;
     letter-spacing: 0.21px;
     padding-top: 15px;
+    color: #7c7b7b;
   }
   button{
     padding: 10px 35px;
     background-color: #8C9E62;
-    color: #fff;
+    color: #f4eeee;
     margin: 20px auto;
     border: none;
     font-size: 14px;
-    letter-spacing: 2.35px;
+    letter-spacing: 0.25px;
 
   }
 }
@@ -397,6 +431,12 @@ a {
       padding: 20px 0;
       letter-spacing: 0.23px;
       color:  #BBBBBB;
+      span{
+        @media (max-width:767px) {
+          display: inline-block;
+          padding-top: 10px;
+        }
+      }
       a{  
         padding: 1px;
         margin: 0 5px;
@@ -421,3 +461,4 @@ a {
 }
 // footer end 
 }
+
