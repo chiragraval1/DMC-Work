@@ -139,7 +139,7 @@ a {
   
 }
 
-.subscription-emailer{
+.product-inquiry{
   font-family: "Mukta", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -151,6 +151,7 @@ a {
   display: block;
   text-align: center;
   width: 100%;
+  border-bottom: 1.5px solid #000;
   img {
     width: 220px;
     @media (max-width:767px) {  
@@ -161,7 +162,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px 0px 30px 0px;
+    padding: 5px 0px 20px 0px;
     @media (max-width:767px) {  
         display: block;
     }
@@ -183,58 +184,34 @@ a {
 }
 // header end
 
-// poster start
-.poster-1 {
-  display: block;
-  width: 100%;
-
-  .cover-image {
-    width: 100%; 
-    height: auto; 
-    object-fit: contain;
-    border-top: 2px solid #454545;
-  }
-}
-// poster end 
-
-// section-1 start 
-.section-1{
-  display: block;
-  text-align: center;
-  padding: 30px 30px;
-  letter-spacing: 0.23px;
-  line-height: 23px;
-  border-bottom: 1px solid #454545 ;
-  margin: 0 70px;
-  @media (max-width:767px) {
-    margin: 0 20px;
+.download{
+  height: 90vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 767px) {
+    height: 70vh;
   }
   h3{
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 34px;
-    padding: 40px 0px 20px;
-  }
-  p{
-    padding: 10px 0px;
-    font-weight: 600;
-  }
-  .join-list-btn{
-    background: #000;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.36px;
-    color: white;
-    padding: 8px 0;
-    width: 160px;
-    border: none;
-    margin: 30px auto 0;
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.51px;
+    line-height: 42px;
+    @media (max-width: 767px) {
+      font-size: 26px;
+      
+    }
   }
 }
-// section end 
-
-
-
+.hr-line{
+  width: 88%; 
+  border: 1px solid #bcb9b9; 
+  margin: 0 auto 30px;
+  @media (max-width : 767px) {
+    width: 80%;
+  }
+}
 // connect start 
 .connect{
   padding: 25px 50px 20px 50px;
@@ -248,7 +225,8 @@ a {
   p{
     padding-bottom: 10px;
     font-size: 12px;
-    letter-spacing: 0.5px;
+    line-height: 15px;
+    letter-spacing: 0.36px;
     color: #2C2C2C;
     font-weight: 700;
   }
@@ -274,6 +252,7 @@ a {
     font-weight: 700;
     letter-spacing: 0.21px;
     padding-top: 15px;
+    line-height: 18px;
   }
   button{
     padding: 10px 35px;
